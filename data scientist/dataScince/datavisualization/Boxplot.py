@@ -6,7 +6,7 @@
 import matplotlib.pyplot as plt
 
 # Open the file in read mode and read lines
-f = open('C://KALS//data science//data scientist//descriptive statistics//datavisualization//salesdata.csv','r')
+f = open('C:\KALS\data science\data scientist\data scientist\dataScince\datavisualization/salesdata.csv','r')
 salefile = f.readlines()
 
 # Create the sales List
@@ -20,9 +20,17 @@ for records in salefile:
 plt.title("Box Plot of Sales")
 
 # Create the plot
-plt.boxplot(sale_list)
+plt.boxplot(sale_list,
+            patch_artist=True,
+            boxprops=dict(facecolor='g',color='r',linewidth=2),
+            whiskerprops=dict(color='r',linewidth=2),
+            medianprops=dict(color='w',linewidth=1),
+            capprops=dict(color='k',linewidth=2),
+            flierprops=dict(markerfacecolor='r',marker='o',markersize=7)
+            )
 
 # Show the Plot
+plt.savefig('C:/KALS/data science/data scientist/data scientist/dataScince/datavisualization\\images/boxplot.png')
 plt.show()
-print("9")
+
 

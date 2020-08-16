@@ -4,9 +4,9 @@
 
 # Import the pyplot
 import matplotlib.pyplot as plt
-
+%matplotlib
 # Open and read the file
-f = open('C://KALS//data science//data scientist//descriptive statistics//datavisualization//agedata.csv','r')
+f = open('C:/KALS/data science/data scientist/data scientist/dataScince/datavisualization/agedata.csv','r')
 agefile = f.readlines()
 
 age_list = []
