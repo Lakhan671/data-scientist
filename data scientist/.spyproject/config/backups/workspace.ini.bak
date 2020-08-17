@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['DictionaryDemo.py', 'file\\fileDemo.py']
+recent_files = ['DictionaryDemo.py', 'file\\fileDemo.py', 'dataScince\\datavisualization\\Histogram.py', 'dataScince\\datavisualization\\BarchartDemo.py', 'dataScince\\datavisualization\\Boxplot.py', 'dataScince\\datavisualization\\agedata.csv', 'dataScince\\datavisualization\\Demo.py', 'dataScince\\datavisualization\\piechart\\PieChart.py', 'dataScince\\datavisualization\\piechart\\Scatterplot.py', 'dataScince\\datavisualization\\Grid.py', 'dataScince\\datavisualization\\Scatterplot2.py', 'dataScince\\datavisualization\\Logarithmicdemo.py']
 
